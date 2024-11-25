@@ -37,16 +37,14 @@ Pour exécuter ce projet, il faut :
    Placer le dossier du projet dans le répertoire `htdocs` de XAMPP.  
 
 3. **Accès au site :**  
-   Ouvrir le site via [http://localhost/nom-du-projet](http://localhost/nom-du-projet) dans un navigateur.
+   Ouvrir le site via [http://127.0.0.1:8000](http://127.0.0.1:8000) dans un navigateur localement.
 
 ## Structure du projet 🗂️
 
 - **routes/web.php** :  
   Définit les routes pour afficher les mangas et gérer l'ajout de nouveaux titres.  
 - **resources/views/** :  
-  Contient les vues Blade pour la liste des mangas et le formulaire d'ajout.  
-- **public/js/** :  
-  Fichiers JavaScript pour les interactions dynamiques du formulaire.  
+  Contient les vues Blade pour la liste des mangas et le formulaire d'ajout.   
 - **storage/app/public/** :  
   Dossier pour les images (`web.png` et `web2.png`).
 
@@ -69,14 +67,10 @@ Pour exécuter ce projet, il faut :
 
 ## Auteur ✍️
 
-- **Kaoun Aya**  
-  Étudiante en développement d'applications à HE2B ESI.  
-  [GitHub Profile](https://github.com/ton-profil-github)
+- **Aya**  
+
 
 ## Licence 📜
 
 Ce projet est réalisé uniquement à des fins d’entraînement et n’est pas destiné à un usage commercial.
 
----
-
-Si tu souhaites des ajouts ou des modifications, fais-le-moi savoir ! 😊
